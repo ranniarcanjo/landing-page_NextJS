@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Container } from "./Container";
 import ApImage from '@/assets/ap-1.png';
 
-export function SectionDescription() {
+export function SectionDescription1() {
     return (
         <section className="flex justify-between items-center h-[965px] bg-black">
             <Container>
