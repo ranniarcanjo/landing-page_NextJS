@@ -3,6 +3,9 @@ import { Footer } from "@/components/Footer";
 import { SectionDescription1 } from "@/components/SectionDescription1";
 import { SectionDescription2 } from "@/components/SectionDescription2";
 import { SectionDescription3 } from "@/components/SectionDescription3";
+import { SectionDescription4 } from "@/components/SectionDescription4";
+import { SectionDescription5 } from "@/components/SectionDescription5";
+
 
 export default function Home() {
   return (
@@ -11,6 +14,8 @@ export default function Home() {
       <SectionDescription1 />
       <SectionDescription2 />
       <SectionDescription3 />
+      <SectionDescription4 />
+      <SectionDescription5 />
       <Footer />
     </>
   );

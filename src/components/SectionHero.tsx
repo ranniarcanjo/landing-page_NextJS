@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Hero from "@/assets/ap-pro.jpeg"
+import Hero from "@/assets/ap-hero.jpeg"
 // import { TimerCountdown } from "./TimerCountdown"
 
 
