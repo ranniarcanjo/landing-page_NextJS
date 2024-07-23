@@ -1,11 +1,12 @@
 import  { Container } from "@/components/Container";
 import Image from "next/image";
-// import Video from "next-video"
 import Handle from "@/assets/handle.png";
 import Control from "@/assets/control.png";
 import Titanium from "@/assets/titanium.png";
 import Heating from "@/assets/heating.png";
-import Animation from "@/assets/video/chapinha_animation.gif";
+import ApImage3 from "@/assets/ap-3.png";
+
+
 
 
 export function SectionDescription3 () {
@@ -79,13 +80,14 @@ export function SectionDescription3 () {
                         </li>
                     </ul>
                 </div>
-                {/* <div>
-                    <Video 
-                    className=""
-                    src={Animation}
+                
+                <div>
+                    <Image 
+                    className="ml-24 w-[500px] h-[700px]"
+                    src={ApImage3}
                     alt=""
                     />
-                </div> */}
+                </div>
             </Container>
         </section>
     )

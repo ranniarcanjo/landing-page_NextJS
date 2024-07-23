@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Container } from "@/components/Container";
-import ApImage from '@/assets/ap-2-.png';
+import ApImage2 from '@/assets/ap-2-.png';
 
 
 export function SectionDescription2() {
@@ -10,11 +10,11 @@ export function SectionDescription2() {
                 <div className="flex items-center justify-between">
                     <div className="w-[600px]">
                         <Image 
-                        src={ApImage} 
+                        src={ApImage2} 
                         alt="" 
                         />
                     </div>
-                    <div className="max-w-[594px]">
+                    <div className="ml-20 max-w-[594px]">
                         <h2 className="text-amber-600 text-2xl font-bold leading-relaxed text-justify mb-2">Design elegante e funcionalidade avançada
                         </h2>
                         <p className="font-semibold leading-relaxed text-justify text-lg">O luxuoso Titanium gold é um triunfo de design e inovação. Com suas placas alisadoras decoradas com detalhes em titânio dourado e acabamento lateral em ouro Titanium, esta alisadora transcende a funcionalidade, tornando-se uma peça de decoração requintada. Seu design não é apenas estético, mas também reflete o compromisso com a qualidade e durabilidade, garantindo alisamento perfeito. um toque de glamour</p><br></br>
