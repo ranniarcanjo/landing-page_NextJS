@@ -6,19 +6,20 @@ import { SectionDescription3 } from "@/components/SectionDescription3";
 import { SectionDescription4 } from "@/components/SectionDescription4";
 import { SectionDescription5 } from "@/components/SectionDescription5";
 import { SectionDescription6 } from "@/components/SectionDescription6";
-
+import { PageCountdown } from "@/components/PageCountdown";
 
 export default function Home() {
   return (
     <>
-      <SectionHero />
+      {/* <SectionHero />
       <SectionDescription1 />
       <SectionDescription2 />
       <SectionDescription3 />
       <SectionDescription4 />
       <SectionDescription5 />
       <SectionDescription6 />
-      <Footer />
+      <Footer /> */}
+      <PageCountdown />
     </>
   );
 }
